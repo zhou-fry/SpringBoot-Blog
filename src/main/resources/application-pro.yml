@@ -15,7 +15,8 @@ logging:
     com.lrm: info
   file:
     name: E:/999-githubSpringBoot-Blog/blog-pro.log
-
+server:
+  port: 8081
 
 
 
