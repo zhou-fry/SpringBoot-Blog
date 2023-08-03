@@ -35,6 +35,7 @@ public class ControllerExceptionHandler {
         mv.addObject("url",request.getRequestURL());
         mv.addObject("exception", e);
         mv.setViewName("error/error");
+        System.out.println("新机器做测试");
         return mv;
     }
 }
